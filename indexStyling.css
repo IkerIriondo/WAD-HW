@@ -1,3 +1,7 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
 header{
     display: flex;
     background-color: lightgray;
@@ -9,8 +13,8 @@ header{
     border-bottom-right-radius: 15px;
     
 }
-nav{
 
+nav{
     padding-top: 1rem;
 }
 
@@ -155,12 +159,16 @@ header > img:hover{
 }
  /* This is for phones mostly */
 @media(max-width: 450px){
-    header{
+    .header, .container, .post{
         flex-direction: column-reverse;
+    }
+    .post-header {
+        flex-direction: column;
+        align-items: flex-start; 
     }
     .sidebar-left,
     .sidebar-right {
-        width: 3%px;
+        display: none;
     }
     header > img{
         height: 6rem;

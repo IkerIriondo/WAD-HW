@@ -6,47 +6,48 @@ WAD course first homework
 ### index.html
 
 Navigation bars:
-- Home (who? - name - member 1)
-- addPost (who? - name - member 1)
+[x] Home (who? - name - member 1)
+[x] addPost (who? - name - member 1)
 
 Main:
-- 2 posts by every team member? (who? - everyone - members123)
+[] 2 posts by every team member? (who? - everyone - members123)
 
 indexStyling.css:
-- header (who? - name - member 1)
-- footer (who? - name - member 2)
-- sidebar 1 (who? - name - member 3)
-- sidebar 2 (who? - name - member 3)
-- main body (scrollable content) (who? - name - member 1) 
+[x] header (who? - name - member 1)
+[] footer (who? - name - member 2)
+[x] sidebar 1 (who? - name - member 3)
+[x] sidebar 2 (who? - name - member 3)
+[x] main body (scrollable content) (who? - name - member 1) 
 
 ### addPost.html
 
 Navigation bars:
-- Home (who? - name - member 2)
+[] Home (who? - name - member 2)
 
 Main:
-- Choose File button (who? - name - member1)
-- Create post button (should redirect to index.html) (who? - name - member 2)
-- Post body (who? - name - member 1)
+[x] Choose File button (who? - name - member1)
+[] Create post button (should redirect to index.html) (who? - name - member 2)
+[x]Post body (who? - name - member 1)
 
 addPostStyling.css
-- header (who? - name - member2)
-- main body (who? - name - member 2)
+[] header (who? - name - member2)
+[] main body (who? - name - member 2)
 
 ### login.html
 
 Navigation bars:
-- Home (who? - name - member 3)
+[x] Home (who? - name - member 3)
 
 Main:
-- create an account button (who? - name - member 3)
-- forget password button (who? - name - member 3)
-- email box (who? - name - member 2)
-- password box (who? - name - member 3)
+[x] create an account button (who? - name - member 3)
+[x] forget password button (who? - name - member 3)
+[] email box (who? - name - member 2)
+[x] password box (who? - name - member 3)
+[x] submit box (who? - name - member 3)
 
 loginStyling.css:
-- header (who? - name - member 3)
-- main body (who? - name - member 3)
+[x] header (who? - name - member 3)
+[x] main body (who? - name - member 3)
 
 ## REQUIREMENTS:
 
