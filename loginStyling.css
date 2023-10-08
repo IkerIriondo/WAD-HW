@@ -44,7 +44,6 @@ header > img{
     border-radius: 50%;
     border-color: lightgray;
     transition: 1s;
-
 }
 
 header > img:hover{
@@ -52,6 +51,7 @@ header > img:hover{
     transition: 1s;
 }
 
+/* Styling for box where are all neces compnents of this page*/
 .center {
     border: 5px solid;
     background-color: #f9f9f9;
@@ -77,13 +77,10 @@ header > img:hover{
 }
 
 #createAcc ~ p {
-    /* CSS styles for the <p> elements that are siblings of the button */
-    /* For example, you can add styles like color, font-size, etc. */
     color: rgb(0, 0, 0);
     font-size: 16px;
 }
 
-/* Select the <button> element with the ID "forgotPassw" that comes after a <form> element */
 #loginForm + button#forgotPassw {
     color: rgb(217, 85, 85);
 }
