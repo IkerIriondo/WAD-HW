@@ -3,6 +3,10 @@ header{
     background-color: lightgray;
     padding: 2rem 2rem 2rem 2rem;
     position: relative;
+    border-top-left-radius: 15px; 
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px; 
+    border-bottom-right-radius: 15px;
     
 }
 nav{
@@ -39,12 +43,99 @@ header > img{
 
 }
 
-
 header > img:hover{
     border-color: lightseagreen;
     transition: 1s;
 }
 
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar-left {
+    width: 10%;
+    max-height: 900px;
+    background-color: lightgray;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 15px;
+    margin-top: 10px;
+    float: left;
+} 
+/* including all posts */
+.content {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 70%;
+    padding: 2rem 2rem 2rem 2rem;
+    max-height: 900px;
+    overflow: auto;
+}
+
+/* Styles for individual posts */
+.post {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 2rem 2rem 2rem 2rem;
+    margin-bottom: 10px;
+}
+
+/* Styles for the post header */
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Styles for the post creator */
+.post-creator {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+/* Styles for the image within the post-creator */
+.post-creator img {
+    height: 3rem;
+    width: 3rem;
+    margin-right: 0.5rem;
+    border: 0.15rem solid lightgray;
+    border-radius: 50%;
+    transition: 1s;
+    vertical-align: middle; 
+}
+
+.post-creator img:hover {
+    border-color: lightseagreen;
+    transition: 1s;
+}
+
+/* Styles for the post date */
+.post-date {
+    color: #888;
+}
+
+/* Styles for the post content */
+.post-content {
+    line-height: 1.6;
+}
+
+/* Styles for paragraphs in the post content */
+.post-content p {
+    margin-bottom: 10px;
+}
+
+.sidebar-right {
+    width: 10%;
+    max-height: 900px;
+    background-color: lightgray;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 15px;
+    margin-top: 10px;
+    float: right;
+} 
 
 /* This is for smaller screen computers*/
 @media(max-width: 1400px){
@@ -55,13 +146,21 @@ header > img:hover{
 /* This is for tablets */
 @media(max-width: 750px){
     header > img{
-        margin-left: 50%;
+        margin-left: 8;
+    }
+    .sidebar-left,
+    .sidebar-right {
+        width: 7%;
     }
 }
  /* This is for phones mostly */
 @media(max-width: 450px){
     header{
         flex-direction: column-reverse;
+    }
+    .sidebar-left,
+    .sidebar-right {
+        width: 3%px;
     }
     header > img{
         height: 6rem;
