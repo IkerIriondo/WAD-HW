@@ -184,3 +184,11 @@ header > img:hover{
     }
 }
 
+footer{
+    background-color: lightgray;
+    height: 100px;
+    border-radius: 15px;
+    padding: 2rem 2rem 2rem 2rem;
+    margin-top: 10px;
+}
+
