@@ -20,7 +20,6 @@ nav{
 
 /* Navigation links to other parts of site*/
 nav > a{
-    
     color: black;
     padding: 0.5rem ;
     margin: 0.2rem;
@@ -44,7 +43,6 @@ header > img{
     border-radius: 50%;
     border-color: lightgray;
     transition: 1s;
-
 }
 
 header > img:hover{
@@ -167,6 +165,10 @@ footer{
     .sidebar-left,
     .sidebar-right {
         width: 7%;
+    }
+    .post-header {
+        flex-direction: column;
+        align-items: flex-start; 
     }
 }
  /* This is for phones mostly */
