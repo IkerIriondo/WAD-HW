@@ -118,3 +118,20 @@ header > img:hover{
         margin-top: 1rem;
     }
 }
+
+#login{
+    background-color: darkblue;
+    color: white;
+    width: auto;
+    height: auto;
+    font-size: 25px;
+}
+
+#email{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+#password{
+    font-size: 15px;
+}
