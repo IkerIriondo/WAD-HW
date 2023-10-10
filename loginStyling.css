@@ -88,10 +88,29 @@ header > img:hover{
 .center button:hover {
     background-color:rgb(237, 237, 237);
     transition: 0.5s;
+    border-radius: 15px;
 }
 
 .form-group {
     margin-top: 10px;
+}
+
+#login{
+    background-color: rgb(74, 174, 131);
+    color: white;
+    width: auto;
+    height: auto;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+#email{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+#password{
+    font-size: 15px;
 }
 
 /* This is for smaller screen computers*/
@@ -117,21 +136,4 @@ header > img:hover{
         margin-left: 40%;
         margin-top: 1rem;
     }
-}
-
-#login{
-    background-color: darkblue;
-    color: white;
-    width: auto;
-    height: auto;
-    font-size: 25px;
-}
-
-#email{
-    margin-bottom: 10px;
-    font-size: 15px;
-}
-
-#password{
-    font-size: 15px;
 }
