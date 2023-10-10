@@ -26,6 +26,26 @@ header > img{
 
 }
 
+nav{
+    padding-top: 1rem;
+}
+
+/* Navigation links to other parts of site*/
+nav > a{
+    
+    color: black;
+    padding: 0.5rem ;
+    margin: 0.2rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav > a:hover{
+    background-color:rgb(243, 243, 243);
+    transition: 0.5s;
+}
+
 #mainBody{
     border: 5px solid;
     background-color: #f9f9f9;
