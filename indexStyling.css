@@ -84,6 +84,11 @@ header > img:hover{
     margin-bottom: 10px;
 }
 
+.post img {
+    max-width: 80%; 
+    height: auto; 
+}
+
 /* Styles for the post header */
 .post-header {
     display: flex;
