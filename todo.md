@@ -10,11 +10,11 @@ Navigation bars:
 - [x] addPost (who? - name - member 1)
 
 Main:
-- [ ] 2 posts by every team member? (who? - everyone - members123)
+- [x] 2 posts by every team member? (who? - everyone - members123)
 
 indexStyling.css:
 - [x] header (who? - name - member 1)
-- [ ] footer (who? - name - member 2)
+- [x] footer (who? - name - member 2)
 - [x] sidebar 1 (who? - name - member 3)
 - [x] sidebar 2 (who? - name - member 3)
 - [x] main body (scrollable content) (who? - name - member 1) 
@@ -22,16 +22,16 @@ indexStyling.css:
 ### addPost.html
 
 Navigation bars:
-- [ ] Home (who? - name - member 2)
+- [x] Home (who? - name - member 2)
 
 Main:
 - [x] Choose File button (who? - name - member1)
-- [ ] Create post button (should redirect to index.html) (who? - name - member 2)
+- [x] Create post button (should redirect to index.html) (who? - name - member 2)
 - [x]Post body (who? - name - member 1)
 
 addPostStyling.css
-- [ ] header (who? - name - member2)
-- [ ] main body (who? - name - member 2)
+- [x] header (who? - name - member2)
+- [x] main body (who? - name - member 2)
 
 ### login.html
 
@@ -41,7 +41,7 @@ Navigation bars:
 Main:
 - [x] create an account button (who? - name - member 3)
 - [x] forget password button (who? - name - member 3)
-- [ ] email box (who? - name - member 2)
+- [x] email box (who? - name - member 2)
 - [x] password box (who? - name - member 3)
 - [x] submit box (who? - name - member 3)
 
