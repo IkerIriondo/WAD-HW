@@ -1,64 +1,74 @@
 {
     "posts":[
     {
-        "username" : "",
-        "profile_pic": "",
-        "text": "",
+        "profile_pic": "Images/profilePic.jpg",
+        "username" : "@AdventureSeeker",
+        "date": "October 30, 2023",
+        "text": "My first jump from a plane!",
+        "picture": "Images/planeSelfie.jpeg"
+    },
+    {
+        "profile_pic": "Images/profilePic.jpg",
+        "username" : "@FoodLover",
+        "date": "October 30, 2023",
+        "text": "Trying a bit of Tortilla de patata, here in Spain.",
+        "picture": "Images/tortillaPatata.jpeg"
+    },
+    {
+        "profile_pic": "Images/profilePic.jpg",
+        "username" : "@TerrorFan",
+        "date": "October 31, 2023",
+        "text": "Happy halloween!!!🎃",
         "picture": ""
     },
     {
-        "username" : "",
-        "profile_pic": "",
-        "text": "",
+        "profile_pic": "Images/profilePic.jpg",
+        "username" : "@JonnyCycling",
+        "date": "November 2, 2023",
+        "text": "Long and beautiful day on the road today...",
+        "picture": "Images/cyclist.jpg"
+    },
+    {
+        "profile_pic": "Images/profilePic.jpg",
+        "username" : "@TravelBug123",
+        "date": "October 8, 2023",
+        "text": "Just landed in Paris! 🗼✈️ The Eiffel Tower is even more breathtaking in person. #TravelAdventures #Paris",
+        "picture": "Images/eiffel.jpeg"
+    },
+    {
+        "profile_pic": "Images/profilePic.jpg",
+        "username" : "@FoodieDreamer",
+        "date": "October 8, 2023",
+        "text": "Tried a new ramen place today, and it was a slurp-worthy experience! 🍜😋 #Foodie #RamenLover #FoodAdventures",
         "picture": ""
     },
     {
-        "username" : "",
-        "profile_pic": "",
-        "text": "",
+        "profile_pic": "Images/profilePic.jpg",
+        "username" : "@TechGeek456",
+        "date": "October 8, 2023",
+        "text": "Exciting news in the tech world! 📱💻 Apple just unveiled their latest iPhone with some mind-blowing features. #TechNews #AppleEvent",
         "picture": ""
     },
     {
-        "username" : "",
-        "profile_pic": "",
-        "text": "",
+        "profile_pic": "Images/profilePic.jpg",
+        "username" : "@FitnessFanatic77",
+        "date": "October 8, 2023",
+        "text": "Early morning workout complete! 💪 Feeling the burn and ready to conquer the day. #FitnessGoals #HealthyLiving",
+        "picture": "Images/workout.jpeg"
+    },
+    {
+        "profile_pic": "Images/profilePic.jpg",
+        "username" : "@Bookworm22",
+        "date": "October 8, 2023",
+        "text": "Just started a new book and I'm already hooked! 📚🤓 Can't wait to see where the story takes me. #BookLover #ReadingList",
         "picture": ""
     },
     {
-        "username" : "",
-        "profile_pic": "",
-        "text": "",
-        "picture": ""
-    },
-    {
-        "username" : "",
-        "profile_pic": "",
-        "text": "",
-        "picture": ""
-    },
-    {
-        "username" : "",
-        "profile_pic": "",
-        "text": "",
-        "picture": ""
-    },
-    {
-        "username" : "",
-        "profile_pic": "",
-        "text": "",
-        "picture": ""
-    },
-    {
-        "username" : "",
-        "profile_pic": "",
-        "text": "",
-        "picture": ""
-    },
-    {
-        "username" : "",
-        "profile_pic": "",
-        "text": "",
-        "picture": ""
+        "profile_pic": "Images/profilePic.jpg",
+        "username" : "@ModernArtist",
+        "date": "October 8, 2023",
+        "text": "My new painting! I hope you like it!!",
+        "picture": "Images/painting.jpg"
     }
     ]
 }
