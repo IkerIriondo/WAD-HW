@@ -1,3 +1,13 @@
+# WADhomework2
+
+ ## Json validator: https://jsonlint.com/
+
+
+
+
+
+
+
 # WADhomework1
 WAD course first homework
 
@@ -52,4 +62,7 @@ loginStyling.css:
 ## REQUIREMENTS:
 
 ![image](https://github.com/elsaneth/WADhomework1/assets/106624129/2371effd-8744-4f9a-ac9b-2d3bf58409f4)
+
+
+
 
