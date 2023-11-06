@@ -1,5 +1,5 @@
-
 //online json (host is jsonbin)(Has only 10_000 free requests)(replace with 'posts.json'): https://api.jsonbin.io/v3/b/654503da54105e766fcaf308
+// fetch('https://api.jsonbin.io/v3/b/654503da54105e766fcaf308')
 fetch('posts.json')
     .then(response => response.json())
     .then(data => {
@@ -7,6 +7,7 @@ fetch('posts.json')
 
         //change to "data.record.posts.forEach..."  (how the jsonbin site is structured)
         //everything else if the same code as local json
+        // data.record.posts.forEach(post => {
         data.posts.forEach(post => {
             const postDiv = document.createElement('div');
             postDiv.classList.add('post');
