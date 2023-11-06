@@ -12,7 +12,14 @@
         <nav>
             <a id="home" href="index.html"> Home</a>
         </nav>
-        <img src="Images\profilePic.jpg" alt="ProfileImg">
+        <div class="profile-dropdown">
+            <img src="Images\profilePic.jpg" alt="ProfileImg" id="profileImg">
+            <div class="dropdown-content" id="dropdownContent">
+                <a href="#">Username</a>
+                <a href="#">Email</a>
+                <a href="#">Log Out</a>
+            </div>
+        </div>
     </header>
 
     <div class="container">
@@ -27,11 +34,12 @@
                     <input type="password" placeholder="Password" id="password" required>
                 </div>
                 <div class="form-group">
-                    <button id="login">Log in</button>
+                    <button id="login">Log In</button>
                 </div>
               </form>
             <button id="forgotPassw"> Forgotten password? </button>
         </div>
     </div>
-
+    <script src="userDropdown.js"></script>
 </body>
+</html>
