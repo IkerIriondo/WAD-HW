@@ -11,10 +11,9 @@ header{
     border-bottom-left-radius: 15px;
     border-top-right-radius: 15px; 
     border-bottom-right-radius: 15px;
-    
 }
-nav{
 
+nav{
     padding-top: 1rem;
 }
 
@@ -45,10 +44,9 @@ nav > a:hover{
     display: none;
     position: absolute;
     right: -7%;
-    background-color: #f9f9f9;
+    background-color: #f2efef;
     min-width: 115px;
     border-radius: 5%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 /* profile picture style */
